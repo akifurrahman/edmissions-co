@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg p-3 navbar-dark">
         <div class="container-fluid p-0">
             <a class="navbar-brand navtitle font-weight-bold" href="#"><i class="fa fa-book" aria-hidden="true"></i>
-                EDMISSIONS.CO</a>
+                EDMISSIONS.APP</a>
 
             <div class="collapse topnav navbar-collapse" id="navbarID">
                 <!-- <a class="p-3 ml-1 mr-1 ml-auto font-weight-bold" href="../pages/about-us.php">About Us</a> -->
