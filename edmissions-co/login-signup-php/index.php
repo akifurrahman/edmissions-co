@@ -93,7 +93,7 @@
                             <form action="index.php" method="POST" autocomplete="">
                                 <!-- <img class="mb-4 logo" src="../assets/homebg.png" alt="" width="72" height="57"> -->
                                 <h1 class="mb-4 text-warning font-weight-bold">
-                                    <span class="title">ED<span class="missions-title">MISSIONS</span>.CO</span>
+                                    <span class="title">ED<span class="missions-title">MISSIONS</span>.APP</span>
                                 </h1>
                                 <h4 class="mb-4 subheading font-weight-bold">Welcome back! <br> Please login into your
                                     account.</h4>
