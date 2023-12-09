@@ -28,7 +28,7 @@ if($email != false && $password != false){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDMISSIONS.CO - For Institutions</title>
+    <title>EDMISSIONS.APP - For Institutions</title>
 
     <!-- fa6 icons -->
     <script src="https://kit.fontawesome.com/aafd8179b0.js" crossorigin="anonymous"></script>
@@ -47,10 +47,10 @@ if($email != false && $password != false){
     <nav class="navbar navbar-expand-lg p-3 navbar-dark">
         <div class="container-fluid p-0">
             <!-- <a class="navbar-brand navtitle font-weight-bold" href="loggedinIndex.php"><i class="fa fa-book"
-                    aria-hidden="true"></i> EDMISSIONS.CO</a> -->
+                    aria-hidden="true"></i> EDMISSIONS.APP</a> -->
 
             <a class="navbar-brand navtitle font-weight-bold" href="#"><i class="fa fa-book" aria-hidden="true"></i>
-                EDMISSIONS.CO</a>
+                EDMISSIONS.APP</a>
 
             <div class="collapse topnav navbar-collapse" id="navbarID">
                 <a class="p-3 ml-1 mr-1 ml-auto font-weight-bold" href="about-us.php">About Us</a>
@@ -140,7 +140,7 @@ if($email != false && $password != false){
         <div class="row button-div">
             <div class="col-lg-3 col-md-4 col-sm-12 m-3">
                 <a href="institution-students.php">
-                    <!-- <button class="cta-buttons cta1"><span>EDMISSIONS.CO for</span><br><i   style="color:rgb(53, 75, 122)" class="fas fa-children fa-xs fa-fw"></i> Students
+                    <!-- <button class="cta-buttons cta1"><span>EDMISSIONS.APP for</span><br><i   style="color:rgb(53, 75, 122)" class="fas fa-children fa-xs fa-fw"></i> Students
                         </button> -->
                     <button style="position:relative;" class="cta-buttons cta1">
                         <center><i style="color:rgb(53, 75, 122)" class="fas fa-children fa-xs fa-fw"></i> Students
@@ -162,7 +162,7 @@ if($email != false && $password != false){
 
             <div class="col-lg-3 col-md-4 col-sm-12 m-3">
                 <a href="institution-companies.php">
-                    <!-- <button style="position:relative;" class="cta-buttons cta3"><span>EDMISSIONS.CO for</span><br><i style="color:rgb(53, 75, 122)" class="fas fa-address-card fa-xs fa-fw"></i> Companies</button> -->
+                    <!-- <button style="position:relative;" class="cta-buttons cta3"><span>EDMISSIONS.APP for</span><br><i style="color:rgb(53, 75, 122)" class="fas fa-address-card fa-xs fa-fw"></i> Companies</button> -->
                     <button style="position:relative;" class="cta-buttons cta3">
                         <center> <i style="color:rgb(53, 75, 122)" class="fas fa-address-card fa-xs fa-fw"></i>
                             Companies</center> <i style="position:absolute; bottom:25px; right:15px"
