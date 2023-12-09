@@ -28,7 +28,7 @@ if($email != false && $password != false){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDMISSIONS.CO - Home Page</title>
+    <title>EDMISSIONS.APP - Home Page</title>
 
     <!-- fa6 icons -->
     <script src="https://kit.fontawesome.com/aafd8179b0.js" crossorigin="anonymous"></script>
@@ -47,10 +47,10 @@ if($email != false && $password != false){
     <nav class="navbar navbar-expand-lg p-3 navbar-dark">
         <div class="container-fluid p-0">
             <!-- <a class="navbar-brand navtitle font-weight-bold" href="loggedinIndex.php"><i class="fa fa-book"
-                    aria-hidden="true"></i> EDMISSIONS.CO</a> -->
+                    aria-hidden="true"></i> EDMISSIONS.APP</a> -->
 
             <a class="navbar-brand navtitle font-weight-bold" href="#"><i class="fa fa-book" aria-hidden="true"></i>
-                EDMISSIONS.CO</a>
+                EDMISSIONS.APP</a>
 
             <div class="collapse topnav navbar-collapse" id="navbarID">
                 <a class="p-3 ml-1 mr-1 ml-auto font-weight-bold" href="about-us.php">About Us</a>
