@@ -58,7 +58,7 @@
                                 <!-- <h2 class="text-center">Signup Form</h2>
                     <p class="text-center">It's quick and easy.</p> -->
                                 <h1 class="mb-4 text-warning font-weight-bold">
-                                    <span class="title">ED<span class="missions-title">MISSIONS</span>.CO</span>
+                                    <span class="title">ED<span class="missions-title">MISSIONS</span>.APP</span>
                                 </h1>
                                 <h4 class="mb-4 subheading font-weight-bold">Hello! Please proceed with creating your
                                     account.</h4>
