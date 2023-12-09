@@ -75,7 +75,7 @@ if($email != false && $password != false){
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <h1>Welcome to <br><span id="title">ED<span class="missions-title">MISSIONS</span>.CO</span></h1>
+                    <h1>Welcome to <br><span id="title">ED<span class="missions-title">MISSIONS</span>.APP</span></h1>
                     <h4>Made Finding Easy!</h4>
                     <h4>For Companies!</h4>
                     <!-- <h4>Please choose one of the options below</h4> -->
