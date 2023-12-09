@@ -4,7 +4,7 @@ step 1: install xampp
 
 step 2: paste the edmissions-co folder in 'C:/xampp/htdocs/' for Windows and 'Applications/XAMPP/htdocs/' for macOS
 
-step 3: setup apache and mySQL server
+step 3: setup Apache Web Server and MySQL Server
 
 step 4: go to localhost/phpmyadmin in your browser
 
