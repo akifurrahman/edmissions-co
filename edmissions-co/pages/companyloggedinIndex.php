@@ -144,7 +144,7 @@ if($email != false && $password != false){
                     <!-- <button class="cta-buttons cta1"><span>EDMISSIONS.APP for</span><br><i   style="color:rgb(53, 75, 122)" class="fas fa-children fa-xs fa-fw"></i> Students
                         </button> -->
                     <button style="position:relative;" class="cta-buttons cta1">
-                        <center><i style="color:rgb(53, 75, 122)" class="fas fa-children fa-xs fa-fw"></i> Students
+                        <center><i style="color:#ffcc00" class="fas fa-children fa-xs fa-fw"></i> Students
                         </center><i style="position:absolute; bottom:25px; right:15px"
                             class="fas fa-arrow-circle-right fa-xs fa-fw"></i>
                     </button>
