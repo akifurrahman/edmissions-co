@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+  /* Windows and Macs */
+  @media screen and (min-resolution: 96dpi) {
+    /* Target Windows with Inter and Macs with apple-system */
+    body {
+      font-family: -apple-system, 'Inter', sans-serif; /* Fallback font for Windows */
+    }
+  }
+
+
+html,
+body {
+  height: 100%;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
+
+.navbar a{
+  /* padding: 15px 20px; */
+  text-decoration: none;
+  /* display: inline-block; */
+  /* color: rgb(34,34,34); */
+}
+
+.navbar a:active{
+  /* background-color: rgb(34,34,34); */
+  background-color: hsl(231, 70%, 96%);
+  /* color: #ffffff; */
+  color: rgb(34,34,34);
+  border-radius: 10px;
+}
+
+.navbar a:visited{
+  text-decoration:none;
+  list-style-type: none;
+  color: rgb(34,34,34);
+}
+
+#navbarID a:hover{
+  /* background-color:rgb(245,245,245); */
+  background-color:hsl(231, 70%, 90%)!important;
+  border-radius: 10px;
+}
+
+.navtitle{
+  /* background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: rgb(34,34,34)!important;
+}
+
+
+.form-signin {
+  /* max-width: 500px; */
+  /* padding: 50px; */
+  background-color: white;
+  /* border-radius: 15px; */
+  z-index: 3;
+}
+
+
+.form-signin input[type="email"],.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgb(60,60,60);
+  border: 1px solid rgb(50,50,50);
+  border-radius: 8px 8px 0 0;
+  color: white;
+}
+.form-signin input[type="email"]{
+  border-radius:  0 0 8px 8px;
+}
+
+.form-signin input[type="password"] {
+  /* margin-bottom: 10px; */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: rgb(60,60,60);
+  border: 1px solid rgb(50,50,50);
+  border-radius:  0 0 8px 8px;
+  color: white;
+}
+
+.password1{
+  border-radius:  8px 8px 0 0!important;
+}
+
+.button{
+  border-radius: 15px;
+  /* background-color: #1a1a1a; */
+  /* background-color: rgb(43,48,99); */
+  background-color: rgb(105,130,230);
+  color: rgb(255, 255, 255);
+  /* border:2px solid white;  */
+}
+
+.sign-up,.sign-up:active .sign-up:visited{
+  color: rgb(105,130,230);
+  text-decoration: none;
+}
+.sign-up:hover{
+  color: rgb(28,29,58);
+  /* text-decoration: none; */
+}
+
+.button:hover{
+  /* border:2px solid black; */
+  color: white;
+  background-color: rgb(33, 36, 73);
+  /* background-color: white; */
+}
+
+.button:active{
+  background-color: rgb(34,34,34);
+  color: white;
+}
+
+.logo{
+  height: 10rem;
+  width: auto;
+}
+
+.background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-image: url(../assets/starbg.JPG); */
+  /* background-color: #e0e0e0; */
+  /* background-color: rgb(105,130,230); */
+  width: 100%;
+  height: 100%;
+  /* -webkit-filter: blur(5px);
+  filter: blur(5px); */
+  /* background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: right; */
+} 
+
+.login-image{
+  height: 500px;
+  /* width: 500px; */
+  /* transform: scale(1.2); */
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+@media screen and (max-width:400px){
+  .login-image{
+    height: 280px;
+  }
+  h1,span{
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (min-width:401px) and (max-width:500px){
+  .login-image{
+    height: 380px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+  .subheading{
+    color: rgb(34,34,34);
+  }
+  .hamburger{
+    /* background-color: burlywood; */
+    /* padding: 5px !important; */
+    color:rgb(48, 48, 48)!important;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --color-bg: #ffffff; */
+    /* --color-bg: hsl(231, 70%, 96%)!important; */
+    
+    --color-bg:  rgb(34,34,34);
+    --color-fg: #ffffff;
+  }
+  #title{
+      color: #ffcc00;
+  }
+  .missions-title{
+      /* color: rgb(34,34,34); */
+      color: var(--color-fg);
+  }
+
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  /* background-image: url(../assets/whiteBG.png); */
+}
+
+  h1,h4,p{
+      color: --color-fg!important;
+      }
+
+.button-div{
+  /* background-color: rgb(245,245,245); */
+  background-color: rgb(26, 26, 26);
+}
+
+#infopara{
+  color: rgb(34,34,34);
+}
+
+.navbar{
+  /* background-color: #fff; */
+  background-color: rgb(34,34,34)!important;
+  /* box-shadow: 0px 10px 30px rgb(200,200,200); */
+}
+
+.navtitle{
+  /* background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+  /* color: rgb(34,34,34)!important; */
+  color: rgb(255, 255, 255)!important;
+}
+
+#navbarID a{
+  /* color: rgb(34,34,34); */
+  color: rgb(255, 255, 255)!important;
+}  
+
+#navbarID a:hover{
+  /* background-color:rgb(245,245,245); */
+  /* background-color:hsl(231, 70%, 90%)!important; */
+  background-color: rgb(17, 17, 17)!important;
+}
+
+a:active,a:visited,a:link{
+  background-color: rgb(34,34,34)!important;
+  color: #fff;
+}
+
+.form-signin{
+  background-color: rgb(34,34,34);
+} 
+
+.subheading{
+  color: rgb(255, 255, 255);
+}
+
+.button{
+  border-radius: 15px;
+  background-color: #ffcc00;
+  color: rgb(34,34,34);
+}
+
+.sign-up,.sign-up:active .sign-up:visited{
+  color: #ffcc00!important;
+}
+.sign-up:hover{
+  color: #ffcc00;
+}
+
+.button:hover{
+  color: white;
+  background-color: #a88600;
+}
+
+.hamburger{
+  /* background-color: burlywood; */
+  /* padding: 5px !important; */
+  color:rgb(255, 255, 255)!important;
+}
+
+.sign-up,.sign-up:active .sign-up:visited{
+  color: rgb(255, 255, 255);
+  /* text-decoration: none; */
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .cta-buttons{
+      max-width: fit-content;
+  }
+
+  .topnav a {
+    display: block;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .topnav #login {
+    margin: 24px 0px !important;
+  }
+}
+
+
