@@ -141,16 +141,16 @@
 
                                 <h4 class="mt-1">I am a:</h4>
                                 <div class="mb-4 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-outline-secondary active">
+                                    <label style="border-radius: 8px 0 0 8px;" class="btn btn-outline-warning active">
                                         <input type="radio" name="options" value="Student" id=" option1"
                                             autocomplete="off" checked>
                                         Student
                                     </label>
-                                    <label class="btn btn-outline-secondary">
+                                    <label class="btn btn-outline-warning">
                                         <input type="radio" name="options" value="Institution" id="option2"
                                             autocomplete="off"> Institution
                                     </label>
-                                    <label class="btn btn-outline-secondary">
+                                    <label style="border-radius:0 8px 8px 0" class="btn btn-outline-warning">
                                         <input type="radio" name="options" value="Company" id="option3"
                                             autocomplete="off">
                                         Company
