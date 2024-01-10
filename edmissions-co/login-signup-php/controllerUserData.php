@@ -69,12 +69,21 @@ if(isset($_POST['signup'])){
 
     //$radio=$_POST['options'];
     //$email=$_POST['email'];
-    if($options=="Institution"||$options=="Company"){
+    
+ /* if($options=="Institution"||$options=="Company"){
         if(str_ends_with($email,"@gmail.com")||str_ends_with($email,"@yahoo.co.in")||str_ends_with($email,"@outlook.com")){
             $errors['email'] = "Please enter your organisation's E-Mail!";
-        //echo '<p>Please enter your organisation\'s E-Mail.</p>' ;
         }
+    } */
+    
+    if ($options == "Institution" || $options == "Company") {
+    $rejectedDomains = array("gmail.com", "yahoo.co.in", "outlook.com"); // Add more rejected domains
+    $emailDomain = substr(strrchr($email, "@"), 1);
+
+    if (in_array($emailDomain, $rejectedDomains)) {
+        $errors['email'] = "Please enter your organization's email address!";
     }
+}
 
     $emailB = filter_var($email, FILTER_SANITIZE_EMAIL);
 
