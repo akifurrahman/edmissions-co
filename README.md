@@ -1,3 +1,5 @@
+EDMISSIONS.APP is an edtech startup which aims to bridge the gap between students, intsitutions and companies.
+
 # edmissions.co Setup Guide
 
 Follow these steps to set up and run edmissions.co on your local machine:
