@@ -23,10 +23,11 @@ Follow these steps to set up and run edmissions.co on your local machine:
    - Open your web browser and go to `localhost/phpmyadmin`.
 
 5. **Create Database:**
-   - Create a new database named `userform`.
+   - Create 2 databases named `userform` and `studentDetailsToInstitutions`.
 
-6. **Import Database Table:**
+6. **Import Database Tables:**
    - Import the table named `usertable.sql` into the `userform` database.
+   - Import the table named `studentDetailsToInstitutions.sql` into the `studentDetailsToInstitutions` database.
 
 7. **Access the Application:**
    - Open your browser and go to `http://localhost/edmissions-co/login-signup-php/` to access the application.
