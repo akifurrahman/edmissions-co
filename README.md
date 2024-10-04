@@ -1,4 +1,14 @@
-EDMISSIONS.APP is an edtech startup which aims to bridge the gap between students, intsitutions and companies.
+
+🎓 Edmissions.co
+
+EDMISSIONS.CO is an edtech startup which aims to bridge the gap between students, intsitutions and companies alike.
+
+🚀 Features
+
+	•	User Registration and Authentication: Secure login for students and admins, including registration based on E-Mail OTPs.
+	•	Dynamic Student Dashboard: Enhance your experience with a clean interface.
+	•	Real-time Updates: Get the latest notifications about your application.
+	•	Security: Strong encryption for user credentials.
 
 # edmissions.co Setup Guide
 
