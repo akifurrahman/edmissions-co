@@ -10,6 +10,13 @@ EDMISSIONS.CO is an edtech startup which aims to bridge the gap between students
 	•	Real-time Updates: Get the latest notifications about your application.
 	•	Security: Strong encryption for user credentials.
 
+🛠️ Tech Stack
+
+	•	Frontend: HTML5, CSS3, Bootstrap
+	•	Backend: PHP, MySQL
+	•	Database: MySQL
+	•	Version Control: GitHub
+
 # edmissions.co Setup Guide
 
 Follow these steps to set up and run edmissions.co on your local machine:
