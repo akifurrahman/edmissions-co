@@ -10,6 +10,14 @@ EDMISSIONS.CO is an edtech startup which aims to bridge the gap between students
 •	Real-time Updates: Get the latest notifications about your application.
 •	Security: Strong encryption for user credentials.
 
+🚀 Features
+
+User Registration and Authentication: Secure login for students and admins.
+Dynamic Student Dashboard: Manage your application process with a clean interface.
+Admin Panel: Oversee and manage student admissions seamlessly.
+Real-time Updates: Get the latest notifications about your application.
+Security: Strong encryption for user credentials.
+
 ## 🛠️ Tech Stack
 
 •	Frontend: HTML5, CSS3, Bootstrap
