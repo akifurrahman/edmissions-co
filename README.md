@@ -12,8 +12,8 @@ EDMISSIONS.CO is an edtech startup which aims to bridge the gap between students
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, Bootstrap
-- **Backend**: PHP, MySQL
+- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript
+- **Backend**: PHP
 - **Database**: MySQL
 - **Version Control**: GitHub
 
