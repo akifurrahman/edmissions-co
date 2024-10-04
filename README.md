@@ -1,5 +1,5 @@
 
-🎓 Edmissions.co
+# 🎓 Edmissions.co
 
 EDMISSIONS.CO is an edtech startup which aims to bridge the gap between students, intsitutions and companies alike.
 
