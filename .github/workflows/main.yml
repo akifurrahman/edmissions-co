@@ -33,4 +33,4 @@ jobs:
           lftp -e "
           mirror --reverse --delete --verbose ./login-signup-php ./edmissions-co/login-signup-php/;
           bye
-          " -u $FTP_USERNAME,$FTP_PASSWORD ftp://your-server.com
+          " -u $DEPLOY_USER,$DEPLOY_KEY ftp://your-server.com
