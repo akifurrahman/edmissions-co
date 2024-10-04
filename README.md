@@ -30,7 +30,9 @@ Follow these steps to set up and run edmissions.co on your local machine:
 
 2.	**Clone the repository:**
 
+```
 git clone https://github.com/akifurrahman/edmissions.co.git
+```
 
 3. **Move the Folder:**
    - For Windows: Paste the `edmissions-co` folder in `C:/xampp/htdocs/`.
