@@ -20,14 +20,17 @@ jobs:
           tools: composer
 
       - name: Install dependencies
-        run: composer install --working-dir=./edmissions-co/login-signup-php/  # Install dependencies in the app subfolder
+        run: composer install --working-dir=login-signup-php  # Install dependencies in the login-signup-php subfolder
 
-      # - name: Run tests
-        # run: php app/vendor/bin/phpunit --configuration app/phpunit.xml  # Run tests from the app subfolder
+      - name: Run tests
+        run: php login-signup-php/vendor/bin/phpunit --configuration login-signup-php/phpunit.xml  # Run tests from the login-signup-php subfolder
 
- # Step to install lftp
+      # Step to install lftp
       - name: Install lftp
         run: sudo apt-get install -y lftp  # Install lftp
+
+      - name: List Files for Debugging  # This will help check if paths are correct
+        run: ls -la ./login-signup-php  # List the contents of the login-signup-php folder to check the correct path
 
       - name: Deploy to Server
         env:
@@ -35,6 +38,6 @@ jobs:
           FTP_PASSWORD: ${{ secrets.DEPLOY_KEY }}
         run: |
           lftp -e "
-          mirror --reverse --delete --verbose ./edmissions-co/login-signup-php/ ./edmissions-co/login-signup-php/;
+          mirror --reverse --delete --verbose ./login-signup-php /public_html;
           bye
           " -u $DEPLOY_USER,$DEPLOY_KEY ftp://your-server.com
