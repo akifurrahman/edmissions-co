@@ -30,7 +30,7 @@ jobs:
         run: sudo apt-get install -y lftp  # Install lftp
 
       - name: List Files for Debugging  # This will help check if paths are correct
-        run: ls -la ./login-signup-php  # List the contents of the login-signup-php folder to check the correct path
+        run: ls -la ./edmissions-co/login-signup-php  # List the contents of the login-signup-php folder to check the correct path
 
       - name: Deploy to Server
         env:
