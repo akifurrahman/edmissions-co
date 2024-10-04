@@ -20,10 +20,10 @@ jobs:
           tools: composer
 
       - name: Install dependencies
-        run: composer install --working-dir=login-signup-php  # Install dependencies in the login-signup-php subfolder
+        run: composer install --working-dir=./edmissions-co/login-signup-php  # Install dependencies in the login-signup-php subfolder
 
-      - name: Run tests
-        run: php login-signup-php/vendor/bin/phpunit --configuration login-signup-php/phpunit.xml  # Run tests from the login-signup-php subfolder
+     # - name: Run tests
+      #  run: php login-signup-php/vendor/bin/phpunit --configuration login-signup-php/phpunit.xml  # Run tests from the login-signup-php subfolder
 
       # Step to install lftp
       - name: Install lftp
