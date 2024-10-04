@@ -38,6 +38,6 @@ jobs:
           FTP_PASSWORD: ${{ secrets.DEPLOY_KEY }}
         run: |
           lftp -e "
-          mirror --reverse --delete --verbose ./login-signup-php /public_html;
+          mirror --reverse --delete --verbose ./edmissions-co /public_html;
           bye
           " -u $DEPLOY_USER,$DEPLOY_KEY ftp://your-server.com
