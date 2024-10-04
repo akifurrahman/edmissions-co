@@ -25,6 +25,10 @@ jobs:
       # - name: Run tests
         # run: php app/vendor/bin/phpunit --configuration app/phpunit.xml  # Run tests from the app subfolder
 
+ # Step to install lftp
+      - name: Install lftp
+        run: sudo apt-get install -y lftp  # Install lftp
+
       - name: Deploy to Server
         env:
           FTP_USERNAME: ${{ secrets.DEPLOY_USER }}  # Set up FTP/SSH details in GitHub secrets
